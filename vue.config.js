@@ -1,5 +1,6 @@
-const { defineConfig } = require("@vue/cli-service");
+const {defineConfig} = require("@vue/cli-service");
 module.exports = defineConfig({
     transpileDependencies: true,
-    publicPath: "/pingpang-app/",
+    publicPath: process.env.NODE_ENV === 'production' ? '/pingpang-app/' : '/'
+
 });

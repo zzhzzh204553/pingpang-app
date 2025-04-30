@@ -61,7 +61,7 @@ table {
 th,
 td {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 4px;
     text-align: center;
     /* 将表头和单元格文字居中 */
 }
