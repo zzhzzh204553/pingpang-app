@@ -26,7 +26,7 @@ export default {
         },
         headers: {
             type: Array,
-            default: () => ['南帝', '北丐', '东邪', '西毒', '中神通']
+            default: () => ['A', 'B', 'C', 'D', 'E']
         },
         data: {
             type: Array,
